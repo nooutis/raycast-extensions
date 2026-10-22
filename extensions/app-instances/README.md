@@ -11,13 +11,15 @@ A lightning-fast Raycast extension that lists, searches, and switches between al
 
 ## Features
 
-- 🔍 **Search & Filter**: Search across all windows by title or filter by specific application.
+- 🔍 **Search & Filter**: Search across all windows by title, filter by application, or filter by OmniWM workspace.
+- 🗂️ **OmniWM Workspace Awareness**: Automatically detects open windows in OmniWM tiling workspaces, displays workspace badges (e.g. `WS 1`, `WS 8`), and supports searching by workspace (`ws 1`, `workspace 2`).
+- 🚀 **OmniWM Direct Switching**: Switching focus to a window in an inactive OmniWM workspace automatically activates that workspace and raises the window.
 - 🎨 **Native App Icons**: Shows real macOS application icons directly in the search results.
 - 🪟 **Minimized Window Indicator**: Visual badges for minimized windows.
 - ⚡ **Quick Focus**: Jump directly to any open window (`Enter`).
 - ❌ **Close Window**: Close open windows directly from Raycast (`Cmd + Shift + W`).
 - 🔄 **Live Refresh**: Reload windows on demand (`Cmd + R`).
-- 📋 **Copy Actions**: Copy window titles (`Cmd + C`) or application names (`Cmd + Shift + C`).
+- 📋 **Copy Actions**: Copy window titles (`Cmd + C`), application names (`Cmd + Shift + C`), or workspaces.
 
 ## Setup & Development
 
